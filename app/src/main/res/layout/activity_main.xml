@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipos de Cuadros de Diálogo" />
+
+    <Button
+        android:id="@+id/btnMensajeUnBoton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mostrarCuadroSencillo"
+        android:text="Mensaje" />
+
+    <Button
+        android:id="@+id/btnMensajeDosBotones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mostrarCuadroDoble"
+        android:text="CUADRO DIALOGO DOS BOTONES" />
+
+    <Button
+        android:id="@+id/btnMensajePersonalizado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mostrarSeleccionSimple"
+        android:text="SELECCION SIMPLE" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mostrarSeleccionSimpleRadioButton"
+        android:text="SELECCION SIMPLE RADIO BUTTON" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELECCION MULTIPLE CON CHECKBOX" />
+
+    <TextView
+        android:id="@+id/lblRespuesta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+</LinearLayout>
